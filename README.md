@@ -23,7 +23,6 @@ This project deploys the following monitoring tools on Alibaba Cloud ACK:
 
 ## 📁 Repository Structure
 
-```bash
 ack.tf                    # ACK cluster provisioning
 network.tf                # VPC, subnet, and networking configurations
 nodepool.tf               # Node pool definitions
@@ -35,7 +34,7 @@ output.tf                 # Output definitions
 manifests/                # Kubernetes YAML manifests
 README.md                 # Project documentation
 
-
+---
 ## 🚀 Setup & Deployment
 
 ### 1. Clone the Repository
@@ -43,7 +42,7 @@ README.md                 # Project documentation
 git clone https://github.com/your-org/Alibaba-Cloud-ACK-Terraform.git
 cd Alibaba-Cloud-ACK-Terraform
 
-
+---
 ### 2. Initialize Terraform
 
 terraform init
