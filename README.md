@@ -22,18 +22,18 @@ This project deploys the following monitoring tools on Alibaba Cloud ACK:
 - **Promtail**: Agents on nodes to ship logs to Loki
 
 ## 📁 Repository Structure
-
-ack.tf                    # ACK cluster provisioning
-network.tf                # VPC, subnet, and networking configurations
-nodepool.tf               # Node pool definitions
-security_groups.tf        # Security group and firewall settings
-monitoring.tf             # Kubernetes monitoring stack deployment
-provider.tf               # Terraform provider configuration
-variables.tf              # Input variables
-output.tf                 # Output definitions
-manifests/                # Kubernetes YAML manifests
-README.md                 # Project documentation
-
+\`\`\`
+ack.tf                  # ACK cluster provisioning
+network.tf              # VPC, subnet, and other networking configurations
+nodepool.tf             # Node pool definitions
+security_groups.tf      # Security group and firewall rules
+monitoring.tf           # Kubernetes monitoring stack deployment
+provider.tf             # Terraform provider configuration
+variables.tf            # Input variable definitions
+output.tf               # Output value definitions
+manifests/              # Directory containing Kubernetes YAML manifests
+README.md               # Project documentation
+\`\`\`
 ---
 ## 🚀 Setup & Deployment
 
