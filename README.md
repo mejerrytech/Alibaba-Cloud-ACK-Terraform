@@ -20,3 +20,17 @@ This project deploys the following monitoring tools on Alibaba Cloud ACK:
 - **Grafana**: Visualizes metrics through dashboards
 - **Loki**: Stores logs in a time-series database optimized for logs
 - **Promtail**: Agents on nodes to ship logs to Loki
+
+## 📁 Repository Structure
+
+```bash
+ack.tf                    # ACK cluster provisioning
+network.tf                # VPC, subnet, and networking configurations
+nodepool.tf               # Node pool definitions
+security_groups.tf        # Security group and firewall settings
+monitoring.tf             # Kubernetes monitoring stack deployment
+provider.tf               # Terraform provider configuration
+variables.tf              # Input variables
+output.tf                 # Output definitions
+manifests/                # Kubernetes YAML manifests
+README.md                 # Project documentation
